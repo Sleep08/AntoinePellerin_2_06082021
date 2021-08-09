@@ -4,12 +4,14 @@
         <link rel="stylesheet" href="index.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/92edf6e314.js" crossorigin="anonymous"></script>
+
         <title>Reservia</title>
     </head>
 
     <body>
-        <div id="contenant_page">
+        <main id="contenant_page">
             <header>
                 <div id="logo_reservia">
                     <img src="Images/logo_reservia.png" alt="Logo Reservia">
@@ -25,7 +27,35 @@
             </header>
 
             <div id="champ_recherche">
-            
+                <h1 id="titre_un">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+                <div class="barre_recherche">
+                    <div class="location"><i class="fas fa-map-marker-alt"></i></div>
+                        <input class="recherche" type="search" value="Marseille, France"/>
+                        <input id="bouton_recherche"  type="submit" value="Rechercher" />
+                </div>
+                <div id="filters_contain">
+                    <p>Filtres</p>
+                    <div class="ensemble_filtre">
+                        <div class="filter_selection">
+                            <div class="filter_icon"><i class="fas fa-money-bill"></i></div>
+                            <p>Economique</p>
+                        </div>
+                        <div class="filter_selection">
+                            <div class="filter_icon"><i class="fas fa-child"></i></div>
+                            <p>Familial</p>
+                        </div>
+                        <div class="filter_selection">
+                            <div class="filter_icon"><i class="fas fa-heart"></i></div>
+                            <p>Romantique</p>
+                        </div>
+                        <div class="filter_selection">
+                            <div class="filter_icon"><i class="fas fa-dog"></i></div>
+                            <p>Animaux autorisés</p>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
 
             <section>
@@ -61,6 +91,6 @@
 
             </footer>
 
-        </div>
+        </main>
     </body>
 </html>
