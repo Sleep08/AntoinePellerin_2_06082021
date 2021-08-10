@@ -1,0 +1,137 @@
+/* STRUCTURE DE LA PAGE */ 
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+#contenant_page {
+    max-width: 90%;
+    margin: auto;
+}
+
+/*MISE EN PAGE HEADER*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#logo_reservia img {
+    width: 80px;
+    height: auto;
+}
+
+/*NAVIGATION*/
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+nav a {
+    font-size: 1.1em;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.heberg {
+    color: #0065FC;
+}
+
+.activites {
+    color: grey;
+}
+
+.inscription {
+    color: #0065FC;
+    font-weight: bold;    
+}
+
+/*CHAMP DE RECHERCHE*/
+
+#titre_un {
+    font-size: 1.1em;
+    padding-top: 25px;
+}
+
+.barre_recherche {
+    display: flex;
+    align-items: initial;
+    justify-content: flex-start;
+    height: 35px;
+}
+
+.recherche {
+    display: flex;
+    border: none;
+}
+
+#bouton_recherche {
+    display: flex;
+    width: 100px;
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    justify-content: center;
+}
+
+.location {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-color: #F2F2F2;
+    width: 40px;
+    border-radius: 10px 0px 0px 10px;
+    padding-top: 8px;
+}
+
+/* FILTRES RECHERCHE */
+
+#filters_contain {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.ensemble_filtre{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter_selection{
+    display: flex;
+    margin-left: 30px;
+    flex-direction: row;
+    align-items:baseline;
+    text-align: center;
+}
+
+.filter_selection p{
+    border: 2px solid #d9d9d9;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.fa-heart, .fa-dog, .fa-child, .fa-money-bill{
+    color: #0065FC;
+    display: flex;
+    margin-top: 15px;
+}
+
+.filter_icon{
+    display: inline-block;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    background-color: #deebff;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 15px;
+}
