@@ -192,6 +192,7 @@ h2{
     flex-wrap: wrap;
     justify-content: space-between;
     width: 750px;
+    padding-left: 10px;
 }
 
 .heberg{
@@ -229,6 +230,23 @@ h2{
     font-size: 0.9em;
 }
 
+.stars{
+    padding-left: 10px;
+    margin-top: -12px;
+    margin-bottom: 10px;
+}
+
+.fa-star{
+    color: #0065FC;
+    font-size: 0.7em;
+    width: 1px;
+    margin-right: 10px;
+}
+
+.fa-star-grey{
+    color: #d9d9d9;
+}
+
 /*POPULAIRES*/
 
 #conteneur_populaire{
@@ -260,11 +278,12 @@ h2{
     display: flex;
     justify-content: flex-start;
     width: 300px;
-    height: 120px;
+    height: 130px;
     border: 1px solid white;
     background-color: white;
     border-radius: 15px;
     margin-top: 20px;
+    border: 1px #d9d9d9 solid;
 }
 
 .bloc_hotel img{
@@ -277,4 +296,9 @@ h2{
 .hotel_text{
     width: 150px;
     padding-top: 8px;
+}
+
+.stars_populaire{
+    padding-left: 10px;
+    margin-top: 25px;
 }
