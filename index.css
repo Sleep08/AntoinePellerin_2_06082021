@@ -182,7 +182,8 @@ nav a {
 h2{
     font-size: 1.1em;
     padding-top: 20px;
-    margin-bottom: -3px;
+    margin-bottom: -2px;
+    margin-left: -1px;
 }
 
 .contenant_hotels{
@@ -226,4 +227,54 @@ h2{
 .afficher{
     font-weight: bold;
     font-size: 0.9em;
+}
+
+/*POPULAIRES*/
+
+#conteneur_populaire{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding-left: 35px;
+    width: 330px;
+}
+
+.conteneur_titre_logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre_trois{
+    padding-top: 20px;
+}
+
+.logo_populaire{
+    margin-right: 35px;
+    margin-top: 45px;
+}
+
+.bloc_populaire{
+    margin-top: -20px;
+}
+
+.bloc_hotel{
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    height: 120px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.bloc_hotel img{
+    width: 100px;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+    border: 5px solid white;
+}
+
+.hotel_text{
+    width: 150px;
+    padding-top: 8px;
 }
