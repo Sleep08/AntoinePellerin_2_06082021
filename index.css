@@ -8,6 +8,10 @@ body{
     margin: auto;
 }
 
+.normal_text{
+    font-size: 0.8em;
+}
+
 /*MISE EN PAGE HEADER*/
 
 header {
@@ -121,7 +125,6 @@ nav a {
 
 .fa-heart, .fa-dog, .fa-child, .fa-money-bill{
     color: #0065FC;
-    display: flex;
     margin-top: 15px;
 }
 
@@ -131,6 +134,32 @@ nav a {
     width: 45px;
     height: 45px;
     background-color: #deebff;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 15px;
+}
+
+/*INFOS HEBERG LEGENDE */
+
+.info_heberg{
+    display: flex;
+    align-items: baseline;
+}
+
+.info_heberg p{
+    padding-left: 30px;
+}
+
+.fa-info{
+    color: #0065FC;
+}
+
+.logo_info{
+    display: inline-block;
+    position: relative;
+    border: 2px #d9d9d9;
+    width: 15px;
+    height: 15px;
     border-radius: 50px;
     position: absolute;
     margin-top: 15px;
