@@ -211,7 +211,7 @@ h2{
     object-fit: cover;
 }
 
-.hotel_title{
+.hotel_title, .title_activity, .footer_title{
     color: black;
     font-weight: bold;
     margin-top: -1px;
@@ -301,4 +301,134 @@ h2{
 .stars_populaire{
     padding-left: 10px;
     margin-top: 25px;
+}
+
+/* ACTIVITES A MARSEILLE*/
+
+.titre_quatre{
+    font-size: 1.1em;
+    margin-top: 50px;
+    color: black;
+}
+
+.conteneur_activites{
+    width: 98%;
+    max-height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -30px;
+}
+
+.conteneur_activites img{
+    width: 250px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+.activite{
+    border: 1px solid #d9d9d9;
+    border-radius: 15px;
+    margin-right: -50px;
+}
+
+.vieux_port, .parc_calanques{
+    height: 100%;
+}
+
+.fort_pomegues{
+    height: 40%;
+}
+
+.activitefrioul{
+    margin-top: 49px;
+}
+
+.ile_frioul{
+    height: 30%;
+}
+
+.colonne_deux{
+    height: 350px;
+}
+
+.notre_dame{
+    height: 35%;
+}
+
+.parc_longchamp{
+    height: 32%;
+}
+
+.parclongchamp{
+    margin-top: 59px;
+}
+
+/*FOOTER*/
+
+.contain_footer{
+    display: flex;
+    justify-content: flex-start;
+    height: 250px;
+    background-color: #F2F2F2;
+    margin-top: 100px;
+}
+
+.bloc_footer{
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 350px;
+}
+
+.contain_footer ul{
+    list-style-type: none;
+    margin-left: -28px;
+}
+
+.bloc_footer a{
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+}
+
+.bloc_footer li{
+    margin-top: 10px;
+}
+
+/*HOVER PAGE*/
+
+figure{
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+figure:hover{
+    -webkit-transform:scale(1.25); /* Safari et Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* Internet Explorer 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+.bloc_hotel{
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;    
+}
+
+.bloc_hotel:hover{
+    -webkit-transform:scale(1.25); /* Safari et Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* Internet Explorer 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+nav a:hover{
+    border-top: 1px solid #0065FC;
+    padding-top: 18px;
 }
