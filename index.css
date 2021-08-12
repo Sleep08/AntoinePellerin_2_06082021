@@ -116,6 +116,11 @@ nav a {
     text-align: center;
 }
 
+.filter_selection a{
+    text-decoration: none;
+    color: black;
+}
+
 .filter_selection p{
     border: 2px solid #d9d9d9;
     border-radius: 25px;
@@ -247,6 +252,11 @@ h2{
     color: #d9d9d9;
 }
 
+.legende_heberg a{
+    text-decoration: none;
+    color: black;
+}
+
 /*POPULAIRES*/
 
 #conteneur_populaire{
@@ -303,9 +313,13 @@ h2{
     margin-top: 25px;
 }
 
+.hotel_text a{
+    text-decoration: none;
+}
+
 /* ACTIVITES A MARSEILLE*/
 
-.titre_quatre{
+#titre_quatre{
     font-size: 1.1em;
     margin-top: 50px;
     color: black;
@@ -329,6 +343,11 @@ h2{
     border: 1px solid #d9d9d9;
     border-radius: 15px;
     margin-right: -50px;
+}
+
+.activite a{
+    text-decoration: none;
+    color: black;
 }
 
 .vieux_port, .parc_calanques{
@@ -431,4 +450,15 @@ figure:hover{
 nav a:hover{
     border-top: 1px solid #0065FC;
     padding-top: 18px;
+}
+
+.filter_selection:hover{
+    opacity: 0.5;
+}
+
+/* MEDIA QUERIES*/
+
+@media screen and (max-width: 1024px)
+{
+    
 }
